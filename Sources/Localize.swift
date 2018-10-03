@@ -164,6 +164,7 @@ open class Localize: NSObject {
         return String()
     }
     
+    //func for obj-c
     open class func getLocalizedString(_ wantedString: String) -> String {
         let localizedString = wantedString.localized()
         return localizedString
